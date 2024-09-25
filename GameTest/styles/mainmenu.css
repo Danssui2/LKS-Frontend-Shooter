@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mainmenu {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuwrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gunselector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.gunselectitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gunselectitem img{
+    width: 50px;
+    height: 50px;
+}
+
+.targetselector {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.targetselectitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.targetselectitem img{
+    width: 50px;
+    height: 50px;
+}
+
+.mainbtnholder {
+    display: flex;
+    gap: 10px;
+}
+
+.mainbtnholder button {
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.playbtn {
+    background-color: rgb(89, 255, 47);
+}
+
+.playbtn:disabled {
+    background-color: rgb(128, 128, 128);
+    color: white;
+}
+
+.htpbtn {
+    background-color: rgb(255, 154, 154);
+}
